@@ -1,6 +1,6 @@
 # Difference-Objects-Classes
 
-## Objects vs. Classes (in my own words)
+## Objects vs. Classes
 A **class** is a blueprint: it defines what data a thing has (fields) and what it can do (methods). A **class** itself doesn’t hold real, changing data; it’s a template that the JVM uses to manufacture actual things in memory. An **object** (instance) is one of those manufactured things. Objects carry real state at runtime—concrete values stored in fields—and they respond to method calls that may read or change that state.
 
 Conceptually, the difference is like the difference between an architectural plan and a house. The plan (class) describes rooms, doors, and materials, but you can’t live in a plan. A house (object) is built from that plan, has paint on the walls, and can be locked or unlocked. Multiple houses can be built from the same plan; likewise, many objects can be created from one class, each with its own state.
